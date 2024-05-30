@@ -1,0 +1,5 @@
+def out (): 
+    name = input()
+    print("Hello, "+name)
+ 
+out()
