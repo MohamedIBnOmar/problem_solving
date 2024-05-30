@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+void print () {
+int number ; long long Long_nu; char ch_text; float float_Num; double double_num;
+    cin>> number>>Long_nu>>ch_text>>float_Num>>double_num;
+    cout<< number<< '\n'<< Long_nu<< '\n'<< ch_text<< '\n'<< float_Num<< '\n'<< double_num<< '\n';
+}
+ 
+int main() {
+  print(); 
+  return 0;
+}
