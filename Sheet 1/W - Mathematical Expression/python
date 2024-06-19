@@ -1,0 +1,20 @@
+n1,s,n2,e,r= input().split()
+if s == "+":
+    if (int(n1) +int(n2))== int (r) :
+        print("Yes")
+    else :
+        print( (int(n1) +int(n2)))
+    
+elif s == "-": 
+    if (int(n1)- int(n2)) == int (r) :
+       print("Yes")
+    else :
+        print((int(n1)- int(n2)))
+ 
+ 
+elif s == "*": 
+ 
+    if (int(n1) * int(n2))==int (r) :
+          print("Yes")
+    else :
+        print((int(n1) * int(n2)))
