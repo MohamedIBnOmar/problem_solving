@@ -1,0 +1,18 @@
+#include <iostream> 
+using namespace std; 
+int main(){
+    
+int n1 ,n2 ,n3,n4;
+cin>> n1>>n2>>n3>>n4;
+ 
+n1%=100l;
+n2%=100;
+n3%=100;
+n4%=100;
+int x= (((n1*n2*n3*n4)%100));
+if (x>9)
+   cout<<x;
+else 
+   cout<<"0"<<x;
+    return 0;
+}
