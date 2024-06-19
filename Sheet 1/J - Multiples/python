@@ -1,0 +1,11 @@
+def  is_multiples(n1 ,n2):
+    if (n1%n2)==0: 
+        print ("Multiples")
+    elif (n2%n1)==0: 
+        print ("Multiples")
+    else :
+        print("No Multiples")
+ 
+ 
+n1,n2 = map(int, input().split())
+is_multiples(n1,n2)
