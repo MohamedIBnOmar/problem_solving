@@ -1,0 +1,8 @@
+num=int(input())
+years=int(num/365)
+month=int((num%365)/30)
+day= int((num % 365) % 30)
+ 
+print(years,'years')
+print(month,'months')
+print(day,'days')
