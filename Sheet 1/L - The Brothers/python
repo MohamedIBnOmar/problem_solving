@@ -1,0 +1,6 @@
+fN1 ,Ln1  = input().split()
+fN2 ,Ln2  = input().split()
+if Ln2== Ln1:
+    print ("ARE Brothers")
+else:
+    print("NOT")
