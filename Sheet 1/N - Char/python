@@ -1,0 +1,7 @@
+val = input()
+if ord (val) in range (97,123):
+      s=chr(ord (val)-32)
+      print(s)
+elif ord (val) in range ( 65,90):
+        c=chr(ord (val)+32)
+        print(c)
