@@ -1,0 +1,4 @@
+n1,n2= input().split()
+for i in "+*-":
+    calculat= n1+ " " + i + " " + n2 
+    print(calculat,"=" , eval(calculat))
