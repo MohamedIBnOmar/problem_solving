@@ -1,0 +1,8 @@
+import math
+def my_round(i):
+  f = math.floor(i)
+  return f if i - f < 0.5 else f+1
+n1,n2=map(int,input().split())
+print(f"floor {n1} / {n2} =" ,math.floor (n1/n2))
+print(f"ceil {n1} / {n2} =",math.ceil (n1/n2))
+print(f"round {n1} / {n2} =",my_round(n1/n2))
