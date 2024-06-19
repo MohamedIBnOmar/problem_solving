@@ -1,0 +1,6 @@
+def calc_area (r):
+    area = r*r*3.141592653 
+    print (area)
+    
+R=float(input())
+calc_area(R)
