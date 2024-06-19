@@ -1,0 +1,9 @@
+n1,s,n2= input().split()
+if int(n1) > int(n2) and s ==">":
+    print("Right")
+elif int(n1)< int(n2) and s=="<" :
+    print("Right")
+elif int(n1) == int(n2) and s== "=":
+    print("Right")
+else :
+  print("Wrong")
