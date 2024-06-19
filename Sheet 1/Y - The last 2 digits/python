@@ -1,0 +1,12 @@
+
+import math
+n1,n2,n3,n4= map(int,input().split())
+n1%=100
+n2%=100
+n3%=100
+n4%=100
+x= (((n1*n2*n3*n4)%100))
+if x>9:
+    print(x)
+else:
+    print(f"0{x}")
