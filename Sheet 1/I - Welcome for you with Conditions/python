@@ -1,0 +1,10 @@
+def num_case ( n1 , n2 ):
+    if n1 > n2 : 
+        print ("Yes")
+    elif n1 ==n2 : 
+        print ("Yes")
+    else : 
+        print("No")
+    
+num1 , num2 = input().split()
+num_case(int(num1), int( num2))
