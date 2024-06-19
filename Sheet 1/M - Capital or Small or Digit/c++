@@ -1,0 +1,15 @@
+ 
+#include <iostream>
+using namespace std ;
+int main(){
+char  val ;
+cin>>val ;
+if (val>=48 &&val<58){
+cout << "IS DIGIT";}
+else {
+if (val>=97 &&val<123)
+  cout << "ALPHA" <<endl<<"IS SMALL";
+else if( val>=65 &&val<90)
+  cout << "ALPHA" <<endl<<"IS CAPITAL";}
+return 0;
+}
