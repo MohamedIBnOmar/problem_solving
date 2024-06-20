@@ -1,0 +1,5 @@
+simbole = input()
+n = int(input())
+number=map(int,input().split())
+for i in number:
+    print(simbole*i)
