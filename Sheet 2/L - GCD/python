@@ -1,0 +1,14 @@
+def GCD( big ,  small):
+    the_bigest=0;
+    for  i in range (1,big+1):
+        if (small%i==0 and big%i==0):
+ 
+                the_bigest =i
+             
+    print(the_bigest)
+ 
+n1 ,n2= map(int,input().split())
+if (n1>n2):
+     GCD(n1,n2)
+else :
+          GCD(n2,n1)
