@@ -1,0 +1,22 @@
+
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+char simbole;
+cin>>simbole;
+int n;
+cin>>n;
+int count=1;
+while(count<=n){
+    int number ;
+    cin >>number;
+    for (int i = 1;i<=number;i++)
+       cout<<simbole;
+    
+   count++;
+   cout<<endl;
+}
+    return 0;
+}
