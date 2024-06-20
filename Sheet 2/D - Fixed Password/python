@@ -1,0 +1,8 @@
+
+while True:
+    pas=int(input())
+    if pas == 1999:
+        print("Correct")
+        break
+    else : 
+        print("Wrong")
