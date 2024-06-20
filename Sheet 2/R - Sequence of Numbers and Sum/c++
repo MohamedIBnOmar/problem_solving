@@ -1,0 +1,32 @@
+
+#include <iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+int start , end,maxx,mini;
+ 
+while( cin>> start>>end){
+    long long sum=0;
+ 
+ 
+if(start<=0 or end <=0)
+   return 0 ;
+else{
+    
+maxx=max(start,end);
+mini=min(start,end);
+for (int i=mini ; i<=maxx;i++){
+    cout <<i<<" ";
+    sum = sum+i;}
+     
+                       }
+                       cout<<"sum ="<<sum<<endl;
+    
+ 
+                          }
+ 
+ 
+ 
+    return 0;
+}
