@@ -1,0 +1,23 @@
+ 
+even , odd , pos , neg =0,0,0,0
+num = int(input())
+n= (int (c) for c in input().split())
+for i in n:
+   
+    if (i>0):
+      pos+=1
+    elif (i<0):
+       neg+=1
+       
+       
+       
+    if (i%2==0):
+       even+=1
+    elif(i%2!=0):
+         odd+=1
+         
+         
+print("Even: ",even)
+print("Odd: ",odd)
+print("Positive: ",pos)
+print("Negative: ",neg)
