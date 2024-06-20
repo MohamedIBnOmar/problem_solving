@@ -1,0 +1,11 @@
+
+def out (n):
+   l=n+1
+   
+   for i in range (l):
+     if i >0:  
+         print(i)
+     
+ 
+n = int(input())
+out(n)
