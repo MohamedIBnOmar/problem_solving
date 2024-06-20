@@ -1,0 +1,9 @@
+num = int(input())
+l= (int(n) for n in input().split())
+maxx =0
+for i in l :
+    if i> maxx :
+        maxx = i
+    
+    
+print(maxx)
