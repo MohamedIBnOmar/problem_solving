@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std; 
+int main()
+{
+//[0,25], (25,50], (50,75], (75,100]
+ 
+int n; 
+cin>> n; 
+for (int i =1 ; i <=n ;i++){
+    cout << i<< endl;
+}
+    return 0;
+}
