@@ -1,0 +1,22 @@
+By mido3405, contest: Sheet #2 (Loops), problem: (H) One Prime, Accepted, #, Copy
+#include <iostream>
+using  namespace std;
+int main()
+{
+    long long num; 
+    int flag =0;
+    cin >> num; 
+    long long l= num/2;
+    for (int i =2; i<=l;i++){
+        if (num%i==0) {
+           
+            cout<<"NO";
+            flag=1;
+            break;
+        }
+        
+    }
+    if (flag==0) 
+        cout<<"YES";
+    return 0;
+}
