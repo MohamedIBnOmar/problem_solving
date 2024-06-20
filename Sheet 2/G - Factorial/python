@@ -1,0 +1,11 @@
+counter= input()
+counter = int(counter)
+fact=1
+while (counter>0):
+    n= input()
+    n = int(n)
+    for i in range(1,n+1):
+           fact= fact*i
+    counter-=1
+    print(fact)
+    fact = 1
