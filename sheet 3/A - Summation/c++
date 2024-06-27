@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+ 
+int  main ()
+{
+int arr[]={}; 
+long long sum=0;
+int size;
+cin>>size;
+ int nums;
+ 
+    for (int i = 0; i<size;i++) {cin>> nums;
+        arr[i]=nums;
+        sum=sum+arr[i];
+ 
+    }
+     
+    if(sum<=-1){
+       sum=sum*-1;
+       cout<<sum<<endl;}
+ 
+    else
+    cout<<sum<<endl;
+    
+  return 0;
+}
