@@ -1,0 +1,38 @@
+#include <iostream>
+#include <algorithm>    // std::sort
+ 
+using namespace std;
+int binary_search(int l,int r,int arr[],int k ){
+    while (l<=r){
+        int mid = l+(r-l)/2;
+    if (arr[mid] ==k) 
+       return mid;
+    else if (arr[mid]<k)
+        l = mid +1;
+    else 
+     r=mid-1;
+    }
+    return-1;
+}
+ 
+int main()
+{
+    int kay;
+    int size;
+    cin>> size>> kay;
+    int arr[size];
+    for (int i =0;i<size;i++){
+        cin>>arr[i];
+    }
+    sort(arr,arr+size);
+    while (kay--){
+        int ino;
+        cin>>ino;
+        int results = binary_search(0,size-1,arr,ino);
+        if (results!=-1){ cout<<"found"<<endl;}
+        else {cout <<"not found"<<endl;}
+ 
+    }
+ 
+    return 0;
+}
