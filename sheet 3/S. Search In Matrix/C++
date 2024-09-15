@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std ;
+int main()
+{
+int row , col;
+cin >>row>>col;
+int arr[row][col] ;
+for(int x=0;x<row;x++)
+   for (int y = 0 ;y<col;y++)
+        cin>>arr[x][y];
+int k, flag=0;
+cin >>k;
+for(int x=0;x<row;x++)
+   for (int y = 0 ;y<col;y++)
+       if( arr[x][y]==k){
+           flag=1;
+           break; }
+
+if (flag==1 )
+  cout<<"will not take number"<<endl;
+else 
+    cout<<"will take number"<<endl;
+
+
+    return 0;
+}
