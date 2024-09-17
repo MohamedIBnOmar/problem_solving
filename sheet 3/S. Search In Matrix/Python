@@ -1,0 +1,21 @@
+row,col=map(int ,input().split(" "))
+matrix=[]
+for i in range(row):
+    arr=list(map(int , input().split()))
+    matrix.append(arr)
+    
+
+k=int(input())
+flag=0
+
+
+for i in range(row):
+    for j in range(col):
+        if k in matrix[i]:
+            flag= 1
+            break
+
+if flag==1:
+        print("will not take number")
+else : 
+        print("will take number")
