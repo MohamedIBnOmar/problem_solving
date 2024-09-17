@@ -1,0 +1,19 @@
+row,row2=map(int ,input().split(" "))
+
+l1= input().split()
+    
+l2= input().split()
+    
+
+
+z=0
+count=0
+for i in range(row):
+    if l1[i]==l2[z]:
+       count=count+1
+       z=z+1
+
+if count== row2:
+    print("YES")
+else :
+   print("NO")
