@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std ;
+int main()
+{
+long long row , row2;
+cin >>row>>row2;
+long long arr[row] ;
+long long sub_arr[row2] ;
+
+for(long long x=0;x<row;x++)
+        cin>>arr[x];
+for (long long y = 0 ;y<row2;y++)
+        cin>>sub_arr[y];
+int count=0;
+int z=0;
+for(long long x=0;x<row;x++){
+       if( arr[x]==sub_arr[z]){
+                   count++;
+                   z++;
+            }}
+       
+if (count==row2)
+         cout<<"YES"<<endl;
+
+ else{
+            cout<<"NO"<<endl;
+            
+            
+        }
+ 
+    return 0;
+}
